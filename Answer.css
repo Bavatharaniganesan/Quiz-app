@@ -1,0 +1,37 @@
+.Answers{
+    list-style: none;
+    margin-top:30px;
+    padding:0;
+}
+
+.Answers li{
+    padding: 10px;
+    color:black;
+    border-left: 6px solid purple;
+    background-color: white;
+    margin:0 0 5px;
+}
+
+.Answers li:hover{
+    cursor:pointer;
+    background-color: grey;
+}
+
+.Answers .correct,
+.Answers .correct:hover{
+    background-color: green;
+    border-left: 4px solid green;
+    color:wheat;
+}
+
+.Answers .incorrect,
+.Answers .incorrect:hover{
+    background-color: red;
+    border-left: 4px solid red;
+    color:wheat;
+}
+
+.Answers[disabled]{
+    pointer-events: none;
+    opacity: 0.7;
+}

@@ -1,0 +1,10 @@
+.Content h1{
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:rgb(128, 20, 20);
+    text-decoration: none;
+    text-shadow: none;
+    text-align: left;
+}
